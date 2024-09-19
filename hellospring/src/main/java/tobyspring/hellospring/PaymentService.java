@@ -41,7 +41,7 @@ abstract public class PaymentService {
         ExRateData data = mapper.readValue(response, ExRateData.class);
         BigDecimal exRate = data.rates().get("KRW");
         return exRate;
-    }
+    }//
      */
 
     public static void main(String[] args) throws IOException {

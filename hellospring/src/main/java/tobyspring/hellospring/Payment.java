@@ -12,7 +12,7 @@ public class Payment {
     private BigDecimal exRate;  // 환율
     private BigDecimal convertedAmount; // 환전금액(원화)
     private LocalDateTime validUntil; // 환율제한시간
-
+//
 
 
     // 자동생성 커맨드 alt+insert
